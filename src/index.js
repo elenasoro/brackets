@@ -1,6 +1,5 @@
 
-// module.exports =
-function check(bracketsStr, config) {
+module.exports = function check(bracketsStr, config) {
    var result;
    var openElems = [];
    var closeElems = [];
@@ -79,4 +78,4 @@ function check(bracketsStr, config) {
 
    }
 
-console.log(check('([{}])', [['(', ')'], ['[', ']'], ['{', '}']] ));
+// console.log(check('([{}])', [['(', ')'], ['[', ']'], ['{', '}']] ));
